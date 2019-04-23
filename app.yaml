@@ -1,7 +1,6 @@
 runtime: python37
 service : fullfillment
-#entrypoint: gunicorn -b :$PORT main:app
-
+entrypoint: gunicorn --chdir=/home/gary573146/animal -b :$PORT mysite.wsgi
 
 #runtime: python
 #env: flex
