@@ -1,6 +1,6 @@
 runtime: python37
 service : fullfillment
-entrypoint: gunicorn -b :$PORT mysite.wsgi
+
 
 #runtime: python
 #env: flex
